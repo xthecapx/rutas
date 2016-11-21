@@ -43,8 +43,8 @@ public function initLoginLDAPGeneral($user, $password) {
     //UNAL - ORIGINAL CODE - BEGIN
     $ldapHost = "ldap://undirectorio.unal.edu.co";
     $ldapPort = "389";
-    $ldapBusqueda ="uid=user_ldap,ou=institucional,o=bogota,o=unal.edu.co";
-    $ldapBPassword="consultaldap";
+    $ldapBusqueda ="uid=APPuser210,ou=services,o=unal.edu.co";
+    $ldapBPassword="684VJR7JMXTSPAMA";
     $identificadorUsuario="uid";
     ////Unsetting this line you can find even institutional users
     //$BusquedaAdicional="(employeeType=1)"; //Cadena de busqueda adicional al identificador de usuario, sino se desea un adicional se puede dejar vacio.
@@ -116,8 +116,8 @@ public function initLoginLDAPGeneral($user, $password) {
     //UNAL - ORIGINAL CODE - BEGIN
     $ldapHost = "ldap://undirectorio.unal.edu.co";
     $ldapPort = "389";
-    $ldapBusqueda ="uid=user_ldap,ou=institucional,o=bogota,o=unal.edu.co";
-    $ldapBPassword="consultaldap";
+    $ldapBusqueda ="uid=APPuser210,ou=services,o=unal.edu.co";
+    $ldapBPassword="684VJR7JMXTSPAMA";
     $identificadorUsuario="uid";
     ////Unsetting this line you can find even institutional users
     //$BusquedaAdicional="(employeeType=1)"; //Cadena de busqueda adicional al identificador de usuario, sino se desea un adicional se puede dejar vacio.
