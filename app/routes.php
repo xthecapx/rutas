@@ -57,7 +57,7 @@ Route::group(array('before' => 'ldapUNAL'), function () {
 		$menu->add('Doble titulación', 'titulacion');
 		$menu->get('dobleTitulación')->add('Afinidades','titulacion/afinidad');
 		$menu->get('dobleTitulación')->add('Equivalencias','titulacion/equivalencias');
-		$menu->add('Video Tutoriales', 'http://167.114.135.150/moodle/course/view.php?id=6728');
+		$menu->add('Video Tutoriales', 'http://campus.virtual.unal.edu.co/course/view.php?id=6728');
 		//$menu->add('Homologaciones y equivalencias', '#');
 		//add('/titulacion/afinidad','/titulacion/equivalencias');
 		//$menu->add('Normatividad', 'Normatividad');
